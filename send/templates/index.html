@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Message Form
+{% endblock %}
+
+{% block content %}
+    <h1>Message Form</h1>
+    <div id="message-container">
+        <ul id="message-list"></ul>
+    </div>
+    <form id="message-form">
+        <input type="text" id="message-input" name="message" placeholder="Enter your message">
+        <button type="submit">Send</button>
+    </form>
+{% endblock %}
